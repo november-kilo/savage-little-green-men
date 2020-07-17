@@ -1,0 +1,27 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+}
+
+p, li {
+    text-align: justify;
+}
+
+nav[data-toggle="toc"] {
+    top: 42px;
+}
+
+.top-margin-half-em {
+    margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    nav[data-toggle="toc"] {
+        margin-bottom: 42px;
+        position: static;
+    }
+
+    nav[data-toggle="toc"] .nav .active .nav {
+        display: none;
+    }
+}
